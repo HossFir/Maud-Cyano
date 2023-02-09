@@ -1,0 +1,9 @@
+[[experiment]]
+id = "condition1"
+is_train = true
+is_test = true
+measurements = [
+  {target_type = "flux", reaction = "DDPA", value = 0.018031, error_scale = 0.2},
+  {target_type = "mic", metabolite = "pep", compartment = "c", value = 0.7, error_scale = 0.2}
+]
+
