@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IdiomsLand</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url("https://wallpaperaccess.com/full/632782.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        header {
+            background-color: #8f70a7;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 5px;
+            transition: all 0.3s ease;
+            border-radius: 3px;
+        }
+
+        nav ul li a:hover {
+            background-color: #6c459e;
+            color: #fff;
+        }
+
+        main {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 50px; /* Add margin to create space between the boxes and the footer */
+        }
+
+        section {
+            margin-bottom: 30px; /* Adjust the value to move the section higher */
+        }
+
+        .box-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .box {
+            flex-basis: 30%;
+            background-color: #fff;
+            padding: 20px;
+            text-align: center;
+            border-radius: 5px;
+            margin: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .box a {
+            text-decoration: none;
+            color: #8f70a7;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .box p {
+            margin-top: 10px;
+            color: #555;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        .box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            color: #fff;
+            margin: 0;
+            font-size: 36px;
+            letter-spacing: 1px;
+        }
+
+        h2 {
+            color: #8f70a7;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style: disc;
+            margin-left: 20px;
+        }
+
+        footer {
+            background-color: #8f70a7;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            font-size: 14px;
+        }
+        
+        .about-me-box {
+            border: 2px solid #8f70a7;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to IdiomsLand</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="https://zabanmaster.com/idioms-about-time-in-english/" target="_blank">Idioms About Time</a></li>
+            <li><a href="https://zabanmaster.com/money-idioms/" target="_blank">Idioms About Money</a></li>
+            <li><a href="https://zabanmaster.com/food-idioms-in-english/" target="_blank">Idioms About Food</a></li>
+            <li><a href="https://zabanmaster.com/animal-idioms/" target="_blank">Idioms About Animal</a></li>
+            <li><a href="mailto:maryam.frz7@gmail.com">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="about">
+            <div class="box about-me-box">
+                <h2>About Me</h2>
+                <p>Hi! I'm Maryam Firoozabadi! Welcome to my page! I am an English teacher. I will do my best to teach you English enjoyably. </p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Explore Idioms</h2>
+            <div class="box-container">
+                <div class="box">
+                    <a href="https://zabanmaster.com/idioms-about-time-in-english/" target="_blank">
+                        <img src="https://m.media-amazon.com/images/I/81q4uEuWZ3L._AC_UF894,1000_QL80_.jpg" alt="Website 1" style="width: 100px; height: 100px;">
+                        <p>Idioms About Time</p>
+                    </a>
+                </div>
+                <div class="box">
+                    <a href="https://zabanmaster.com/money-idioms/" target="_blank">
+                        <img src="https://img.freepik.com/free-vector/stack-money-gold-coins-3d-cartoon-style-icon-coins-with-dollar-sign-wad-cash-currency-flat-vector-illustration-wealth-investment-success-savings-economy-profit-concept_74855-26108.jpg?w=2000" alt="Website 2" style="width: 100px; height: 100px;">
+                        <p>Idioms About Money</p>
+                    </a>
+                </div>
+                <div class="box">
+                    <a href="https://zabanmaster.com/food-idioms-in-english/" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/2927/2927347.png" alt="Website 3" style="width: 100px; height: 100px;">
+                        <p>Idioms About Food</p>
+                    </a>
+                </div>
+                <div class="box">
+                    <a href="https://zabanmaster.com/animal-idioms/" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/616/616408.png" alt="Website 4" style="width: 100px; height: 100px;">
+                        <p>Idioms About Animal</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 IdiomsLand. All rights reserved.</p>
+    </footer>
+</body>
+</html>
