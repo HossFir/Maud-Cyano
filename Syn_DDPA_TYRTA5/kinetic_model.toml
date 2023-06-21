@@ -59,6 +59,47 @@ metabolite_in_compartment = [
   {metabolite_id = "tyr", compartment_id = "c", balanced = false},
 ]
 
+enzyme = [
+  {id = "DDPA1", name = "3-deoxy-7-phosphoheptulonate synthase 1", subunits = 1},
+  {id = "DHQS1", name = "3-dehydroquinate synthase 1", subunits = 1},
+  {id = "DHQTi1", name = "3-dehydroquinate dehydratase 1", subunits = 1},
+  {id = "DHQTi2", name = "3-dehydroquinate dehydratase 2", subunits = 1},
+  {id = "SHK3Dr1", name = "Shikimate dehydrogenase 1", subunits = 1},
+  {id = "SHKK1", name = "Shikimate kinase 1", subunits = 1},
+  {id = "PSCVT1", name = "3-phosphoshikimate 1-carboxyvinyltransferase 1", subunits = 1},
+  {id = "CHORS1", name = "Chorismate synthase 1", subunits = 1},
+  {id = "CHORM1", name = "Chorismate mutase 1", subunits = 1},
+  {id = "PPNDH1", name = "Prephenate dehydratase 1", subunits = 1},
+  {id = "PHETA11", name = "Phenylalanine transaminase 1", subunits = 1},
+  {id = "PHETA12", name = "Phenylalanine transaminase 2", subunits = 1},
+  {id = "PHETA13", name = "Phenylalanine transaminase 3", subunits = 1},
+  {id = "PPND1", name = "Prephenate dehydrogenase 1", subunits = 1},
+  {id = "TYRTA1", name = "Tyrosine transaminase 1", subunits = 1},
+  {id = "TYRTA2", name = "Tyrosine transaminase 2", subunits = 1},
+  {id = "TYRTA3", name = "Tyrosine transaminase 3", subunits = 1},
+]
+
+
+enzyme_reaction = [
+  {enzyme_id = "DDPA1", reaction_id = "DDPA"},
+  {enzyme_id = "DHQS1", reaction_id = "DHQS"},
+  {enzyme_id = "DHQTi1", reaction_id = "DHQTi"},
+  {enzyme_id = "DHQTi2", reaction_id = "DHQTi"},
+  {enzyme_id = "SHK3Dr1", reaction_id = "SHK3Dr"},
+  {enzyme_id = "SHKK1", reaction_id = "SHKK"},
+  {enzyme_id = "PSCVT1", reaction_id = "PSCVT"},
+  {enzyme_id = "CHORS1", reaction_id = "CHORS"},
+  {enzyme_id = "CHORM1", reaction_id = "CHORM"},
+  {enzyme_id = "PPNDH1", reaction_id = "PPNDH"},
+  {enzyme_id = "PHETA11", reaction_id = "PHETA1"},
+  {enzyme_id = "PHETA12", reaction_id = "PHETA1"},
+  {enzyme_id = "PHETA13", reaction_id = "PHETA1"},
+  {enzyme_id = "PPND1", reaction_id = "PPND"},
+  {enzyme_id = "TYRTA1", reaction_id = "TYRTA"},
+  {enzyme_id = "TYRTA2", reaction_id = "TYRTA"},
+  {enzyme_id = "TYRTA3", reaction_id = "TYRTA"},
+]
+
 
 [[reaction]]
 id = "DDPA"
@@ -147,45 +188,5 @@ stoichiometry = {akg_c= 1, tyr_c= 1, glu_c= -1, 34hpp_c= -1}
 mechanism = "reversible_michaelis_menten"
 
 
-enzyme = [
-  {enzyme_id = "DDPA1", name = "3-deoxy-7-phosphoheptulonate synthase 1", subunits = 1},
-  {enzyme_id = "DHQS1", name = "3-dehydroquinate synthase 1", subunits = 1},
-  {enzyme_id = "DHQTi1", name = "3-dehydroquinate dehydratase 1", subunits = 1},
-  {enzyme_id = "DHQTi2", name = "3-dehydroquinate dehydratase 2", subunits = 1},
-  {enzyme_id = "SHK3Dr1", name = "Shikimate dehydrogenase 1", subunits = 1},
-  {enzyme_id = "SHKK1", name = "Shikimate kinase 1", subunits = 1},
-  {enzyme_id = "PSCVT1", name = "3-phosphoshikimate 1-carboxyvinyltransferase 1", subunits = 1},
-  {enzyme_id = "CHORS1", name = "Chorismate synthase 1", subunits = 1},
-  {enzyme_id = "CHORM1", name = "Chorismate mutase 1", subunits = 1},
-  {enzyme_id = "PPNDH1", name = "Prephenate dehydratase 1", subunits = 1},
-  {enzyme_id = "PHETA11", name = "Phenylalanine transaminase 1", subunits = 1},
-  {enzyme_id = "PHETA12", name = "Phenylalanine transaminase 2", subunits = 1},
-  {enzyme_id = "PHETA13", name = "Phenylalanine transaminase 3", subunits = 1},
-  {enzyme_id = "PPND1", name = "Prephenate dehydrogenase 1", subunits = 1},
-  {enzyme_id = "TYRTA1", name = "Tyrosine transaminase 1", subunits = 1},
-  {enzyme_id = "TYRTA2", name = "Tyrosine transaminase 2", subunits = 1},
-  {enzyme_id = "TYRTA3", name = "Tyrosine transaminase 3", subunits = 1},
-]
-
-
-enzyme_reaction = [
-  {enzyme_id = "DDPA1", reaction_id = "DDPA"},
-  {enzyme_id = "DHQS1", reaction_id = "DHQS"},
-  {enzyme_id = "DHQTi1", reaction_id = "DHQTi"},
-  {enzyme_id = "DHQTi2", reaction_id = "DHQTi"},
-  {enzyme_id = "SHK3Dr1", reaction_id = "SHK3Dr"},
-  {enzyme_id = "SHKK1", reaction_id = "SHKK"},
-  {enzyme_id = "PSCVT1", reaction_id = "PSCVT"},
-  {enzyme_id = "CHORS1", reaction_id = "CHORS"},
-  {enzyme_id = "CHORM1", reaction_id = "CHORM"},
-  {enzyme_id = "PPNDH1", reaction_id = "PPNDH"},
-  {enzyme_id = "PHETA11", reaction_id = "PHETA1"},
-  {enzyme_id = "PHETA12", reaction_id = "PHETA1"},
-  {enzyme_id = "PHETA13", reaction_id = "PHETA1"},
-  {enzyme_id = "PPND1", reaction_id = "PPND"},
-  {enzyme_id = "TYRTA1", reaction_id = "TYRTA"},
-  {enzyme_id = "TYRTA2", reaction_id = "TYRTA"},
-  {enzyme_id = "TYRTA3", reaction_id = "TYRTA"},
-]
 
 
