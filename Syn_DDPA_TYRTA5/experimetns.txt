@@ -1,0 +1,1 @@
+  {target_type = "mic", metabolite = "pep", compartment = "c", value = 0.7, error_scale = 0.2}
