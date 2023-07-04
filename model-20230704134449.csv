@@ -1,0 +1,45 @@
+# stan_version_major = 2
+# stan_version_minor = 30
+# stan_version_patch = 0
+# model = model_model
+# start_datetime = 2023-07-04 11:44:49 UTC
+# method = sample (Default)
+#   sample
+#     num_samples = 20
+#     num_warmup = 20
+#     save_warmup = 1
+#     thin = 1 (Default)
+#     adapt
+#       engaged = 1 (Default)
+#       gamma = 0.050000000000000003 (Default)
+#       delta = 0.98999999999999999
+#       kappa = 0.75 (Default)
+#       t0 = 10 (Default)
+#       init_buffer = 75 (Default)
+#       term_buffer = 50 (Default)
+#       window = 25 (Default)
+#     algorithm = hmc (Default)
+#       hmc
+#         engine = nuts (Default)
+#           nuts
+#             max_depth = 7
+#         metric = diag_e (Default)
+#         metric_file =  (Default)
+#         stepsize = 0.025000000000000001
+#         stepsize_jitter = 0 (Default)
+#     num_chains = 1 (Default)
+# id = 1 (Default)
+# data
+#   file = ./maud_output-Syn-20230704134449/samples/input_data_train.json
+# init = ./maud_output-Syn-20230704134449/samples/inits.json
+# random
+#   seed = 1234
+# output
+#   file = /home/hossein/Code/cyano/maud_output-Syn-20230704134449/samples/model-20230704134449.csv
+#   diagnostic_file =  (Default)
+#   refresh = 1
+#   sig_figs = -1 (Default)
+#   profile_file = profile.csv (Default)
+# num_threads = 1 (Default)
+# stanc_version = stanc3 v2.30.1
+# stancflags = --include-paths=/home/hossein/Code/Maud/src/maud/stan

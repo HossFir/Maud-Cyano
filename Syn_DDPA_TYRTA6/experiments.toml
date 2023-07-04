@@ -1,0 +1,84 @@
+[[experiment]]
+id = "WT"
+is_train = true
+is_test = true
+measurements = [
+  {target_type = "flux", reaction = "DDPA", value = 1.0526819333333334e-09, error_scale = 2e-10},
+  {target_type = "flux", reaction = "DHQS", value = 1.0526819333333334e-09, error_scale = 2e-10},
+  {target_type = "flux", reaction = "DHQTi", value = 1.0526819333333334e-09, error_scale = 2e-10},
+  {target_type = "flux", reaction = "SHK3Dr", value = 1.0526819333333334e-09, error_scale = 2e-10},
+  {target_type = "flux", reaction = "SHKK", value = 1.0526819333333334e-09, error_scale = 2e-10},
+  {target_type = "flux", reaction = "PSCVT", value = 1.0526819333333334e-09, error_scale = 2e-10},
+  {target_type = "flux", reaction = "CHORS", value = 1.0526819333333334e-09, error_scale = 2e-10},
+  {target_type = "flux", reaction = "CHORM", value = 8.546143666666667e-10, error_scale = 2e-10},
+  {target_type = "flux", reaction = "PPNDH", value = 4.941118e-10, error_scale = 2e-10},
+  {target_type = "flux", reaction = "PHETA1", value = 4.941118e-10, error_scale = 2e-10},
+  {target_type = "flux", reaction = "PPND", value = 3.6050256666666667e-10, error_scale = 2e-10},
+  {target_type = "flux", reaction = "TYRTA", value = 3.5910511e-10, error_scale = 2e-10},
+  {target_type = "enzyme", enzyme = "DDPA1", value = 3.7457, error_scale = 0.2},
+  {target_type = "enzyme", enzyme = "DHQS1", value = 1.07915025, error_scale = 0.2},
+  {target_type = "enzyme", enzyme = "DHQTi1", value = 0.59531125, error_scale = 0.2},
+  {target_type = "enzyme", enzyme = "DHQTi2", value = 15.6578997, error_scale = 0.2},
+  {target_type = "enzyme", enzyme = "SHK3Dr1", value = 0.6947995, error_scale = 0.2},
+  {target_type = "enzyme", enzyme = "SHKK1", value = 0.68647275, error_scale = 0.2},
+  {target_type = "enzyme", enzyme = "PSCVT1", value = 2.6454965, error_scale = 0.2},
+  {target_type = "enzyme", enzyme = "CHORS1", value = 3.38060275, error_scale = 0.2},
+  {target_type = "enzyme", enzyme = "CHORM1", value = 1.28698775, error_scale = 0.2},
+  {target_type = "enzyme", enzyme = "PPNDH1", value = 0.6628285, error_scale = 0.2},
+  {target_type = "enzyme", enzyme = "PHETA11", value = 2.12660575, error_scale = 0.2},
+  {target_type = "enzyme", enzyme = "PHETA12", value = 6.4795255, error_scale = 0.2},
+  {target_type = "enzyme", enzyme = "PHETA13", value = 1.17513425, error_scale = 0.2},
+  {target_type = "enzyme", enzyme = "PPND1", value = 0.28857575, error_scale = 0.2},
+  {target_type = "enzyme", enzyme = "TYRTA1", value = 2.12660575, error_scale = 0.2},
+  {target_type = "enzyme", enzyme = "TYRTA2", value = 6.4795255, error_scale = 0.2},
+  {target_type = "enzyme", enzyme = "TYRTA3", value = 1.17513425, error_scale = 0.2},
+]
+
+[[experiment]]
+id = "OP2"
+is_train = true
+is_test = true
+measurements = [
+  {target_type = "enzyme", enzyme = "DDPA1", value = 2.220413, error_scale = 0.2},
+  {target_type = "enzyme", enzyme = "DHQS1", value = 0.8490385, error_scale = 0.2},
+  {target_type = "enzyme", enzyme = "DHQTi1", value = 0.34589575, error_scale = 0.2},
+  {target_type = "enzyme", enzyme = "DHQTi2", value = 7.35086525, error_scale = 0.2},
+  {target_type = "enzyme", enzyme = "SHK3Dr1", value = 0.2262435, error_scale = 0.2},
+  {target_type = "enzyme", enzyme = "SHKK1", value = 0.3207515, error_scale = 0.2},
+  {target_type = "enzyme", enzyme = "PSCVT1", value = 1.26971625, error_scale = 0.2},
+  {target_type = "enzyme", enzyme = "CHORS1", value = 1.820399, error_scale = 0.2},
+  {target_type = "enzyme", enzyme = "CHORM1", value = 1.12663275, error_scale = 0.2},
+  {target_type = "enzyme", enzyme = "PPNDH1", value = 0.5921035, error_scale = 0.2},
+  {target_type = "enzyme", enzyme = "PHETA11", value = 1.28397475, error_scale = 0.2},
+  {target_type = "enzyme", enzyme = "PHETA12", value = 2.83339175, error_scale = 0.2},
+  {target_type = "enzyme", enzyme = "PHETA13", value = 0.8376745, error_scale = 0.2},
+  {target_type = "enzyme", enzyme = "PPND1", value = 0.23042825, error_scale = 0.2},
+  {target_type = "enzyme", enzyme = "TYRTA1", value = 1.28397475, error_scale = 0.2},
+  {target_type = "enzyme", enzyme = "TYRTA2", value = 2.83339175, error_scale = 0.2},
+  {target_type = "enzyme", enzyme = "TYRTA3", value = 0.8376745, error_scale = 0.2},
+]
+
+
+[[experiment]]
+id = "OP4"
+is_train = true
+is_test = true
+measurements = [
+  {target_type = "enzyme", enzyme = "DDPA1", value = 1.85396175, error_scale = 0.2},
+  {target_type = "enzyme", enzyme = "DHQS1", value = 0.54469225, error_scale = 0.2},
+  {target_type = "enzyme", enzyme = "DHQTi1", value = 0.77469675, error_scale = 0.2},
+  {target_type = "enzyme", enzyme = "DHQTi2", value = 6.4468735, error_scale = 0.2},
+  {target_type = "enzyme", enzyme = "SHK3Dr1", value = 0.256149, error_scale = 0.2},
+  {target_type = "enzyme", enzyme = "SHKK1", value = 0.24031725, error_scale = 0.2},
+  {target_type = "enzyme", enzyme = "PSCVT1", value = 1.08014825, error_scale = 0.2},
+  {target_type = "enzyme", enzyme = "CHORS1", value = 1.7105225, error_scale = 0.2},
+  {target_type = "enzyme", enzyme = "CHORM1", value = 0.487354, error_scale = 0.2},
+  {target_type = "enzyme", enzyme = "PPNDH1", value = 0.313486, error_scale = 0.2},
+  {target_type = "enzyme", enzyme = "PHETA11", value = 1.25079025, error_scale = 0.2},
+  {target_type = "enzyme", enzyme = "PHETA12", value = 2.07825125, error_scale = 0.2},
+  {target_type = "enzyme", enzyme = "PHETA13", value = 0.78853625, error_scale = 0.2},
+  {target_type = "enzyme", enzyme = "PPND1", value = 0.1780555, error_scale = 0.2},
+  {target_type = "enzyme", enzyme = "TYRTA1", value = 1.25079025, error_scale = 0.2},
+  {target_type = "enzyme", enzyme = "TYRTA2", value = 2.07825125, error_scale = 0.2},
+  {target_type = "enzyme", enzyme = "TYRTA3", value = 0.78853625, error_scale = 0.2},
+]
