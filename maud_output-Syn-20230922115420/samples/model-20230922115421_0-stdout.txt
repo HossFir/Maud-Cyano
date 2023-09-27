@@ -1,0 +1,114 @@
+method = sample (Default)
+  sample
+    num_samples = 20
+    num_warmup = 20
+    save_warmup = 1
+    thin = 1 (Default)
+    adapt
+      engaged = 1 (Default)
+      gamma = 0.050000000000000003 (Default)
+      delta = 0.98999999999999999
+      kappa = 0.75 (Default)
+      t0 = 10 (Default)
+      init_buffer = 75 (Default)
+      term_buffer = 50 (Default)
+      window = 25 (Default)
+    algorithm = hmc (Default)
+      hmc
+        engine = nuts (Default)
+          nuts
+            max_depth = 7
+        metric = diag_e (Default)
+        metric_file =  (Default)
+        stepsize = 0.025000000000000001
+        stepsize_jitter = 0 (Default)
+    num_chains = 1 (Default)
+id = 1 (Default)
+data
+  file = ./maud_output-Syn-20230922115420/samples/input_data_train.json
+init = ./maud_output-Syn-20230922115420/samples/inits.json
+random
+  seed = 1234
+output
+  file = /home/hossein/Code/cyano/maud_output-Syn-20230922115420/samples/model-20230922115421.csv
+  diagnostic_file =  (Default)
+  refresh = 1
+  sig_figs = -1 (Default)
+  profile_file = profile.csv (Default)
+num_threads = 1 (Default)
+
+
+Gradient evaluation took 0.46428 seconds
+1000 transitions using 10 leapfrog steps per transition would take 4642.8 seconds.
+Adjust your expectations accordingly!
+
+
+WARNING: There aren't enough warmup iterations to fit the
+         three stages of adaptation as currently configured.
+         Reducing each adaptation stage to 15%/75%/10% of
+         the given number of warmup iterations:
+           init_buffer = 3
+           adapt_window = 15
+           term_buffer = 2
+
+Iteration:  1 / 40 [  2%]  (Warmup)
+Iteration:  2 / 40 [  5%]  (Warmup)
+Iteration:  3 / 40 [  7%]  (Warmup)
+Exception: CVode(cvodes_mem, t_final, nv_state_, &t_init, CV_NORMAL) failed with error flag -4: 
+Convergence test failures occurred too many times during one internal time step or minimum step size was reached. (in '/home/hossein/Code/cyano/.venv/lib/python3.10/site-packages/maud/stan/model.stan', line 156, column 4 to line 203, column 39)
+Iteration:  4 / 40 [ 10%]  (Warmup)
+Iteration:  5 / 40 [ 12%]  (Warmup)
+Iteration:  6 / 40 [ 15%]  (Warmup)
+Iteration:  7 / 40 [ 17%]  (Warmup)
+Iteration:  8 / 40 [ 20%]  (Warmup)
+Iteration:  9 / 40 [ 22%]  (Warmup)
+Iteration: 10 / 40 [ 25%]  (Warmup)
+Iteration: 11 / 40 [ 27%]  (Warmup)
+Iteration: 12 / 40 [ 30%]  (Warmup)
+Iteration: 13 / 40 [ 32%]  (Warmup)
+Iteration: 14 / 40 [ 35%]  (Warmup)
+Iteration: 15 / 40 [ 37%]  (Warmup)
+Iteration: 16 / 40 [ 40%]  (Warmup)
+Iteration: 17 / 40 [ 42%]  (Warmup)
+Iteration: 18 / 40 [ 45%]  (Warmup)
+Iteration: 19 / 40 [ 47%]  (Warmup)
+Exception: CVode(cvodes_mem, t_final, nv_state_, &t_init, CV_NORMAL) failed with error flag -4: 
+Convergence test failures occurred too many times during one internal time step or minimum step size was reached. (in '/home/hossein/Code/cyano/.venv/lib/python3.10/site-packages/maud/stan/model.stan', line 156, column 4 to line 203, column 39)
+Iteration: 20 / 40 [ 50%]  (Warmup)
+Exception: CVode(cvodes_mem, t_final, nv_state_, &t_init, CV_NORMAL) failed with error flag -4: 
+Convergence test failures occurred too many times during one internal time step or minimum step size was reached. (in '/home/hossein/Code/cyano/.venv/lib/python3.10/site-packages/maud/stan/model.stan', line 156, column 4 to line 203, column 39)
+Iteration: 21 / 40 [ 52%]  (Sampling)
+Iteration: 22 / 40 [ 55%]  (Sampling)
+Exception: CVode(cvodes_mem, t_final, nv_state_, &t_init, CV_NORMAL) failed with error flag -4: 
+Convergence test failures occurred too many times during one internal time step or minimum step size was reached. (in '/home/hossein/Code/cyano/.venv/lib/python3.10/site-packages/maud/stan/model.stan', line 156, column 4 to line 203, column 39)
+Iteration: 23 / 40 [ 57%]  (Sampling)
+Iteration: 24 / 40 [ 60%]  (Sampling)
+Exception: CVode(cvodes_mem, t_final, nv_state_, &t_init, CV_NORMAL) failed with error flag -4: 
+Convergence test failures occurred too many times during one internal time step or minimum step size was reached. (in '/home/hossein/Code/cyano/.venv/lib/python3.10/site-packages/maud/stan/model.stan', line 156, column 4 to line 203, column 39)
+Iteration: 25 / 40 [ 62%]  (Sampling)
+Iteration: 26 / 40 [ 65%]  (Sampling)
+Exception: CVode(cvodes_mem, t_final, nv_state_, &t_init, CV_NORMAL) failed with error flag -4: 
+Convergence test failures occurred too many times during one internal time step or minimum step size was reached. (in '/home/hossein/Code/cyano/.venv/lib/python3.10/site-packages/maud/stan/model.stan', line 156, column 4 to line 203, column 39)
+Iteration: 27 / 40 [ 67%]  (Sampling)
+Exception: CVode(cvodes_mem, t_final, nv_state_, &t_init, CV_NORMAL) failed with error flag -4: 
+Convergence test failures occurred too many times during one internal time step or minimum step size was reached. (in '/home/hossein/Code/cyano/.venv/lib/python3.10/site-packages/maud/stan/model.stan', line 156, column 4 to line 203, column 39)
+Iteration: 28 / 40 [ 70%]  (Sampling)
+Iteration: 29 / 40 [ 72%]  (Sampling)
+Iteration: 30 / 40 [ 75%]  (Sampling)
+Iteration: 31 / 40 [ 77%]  (Sampling)
+Iteration: 32 / 40 [ 80%]  (Sampling)
+Iteration: 33 / 40 [ 82%]  (Sampling)
+Iteration: 34 / 40 [ 85%]  (Sampling)
+Iteration: 35 / 40 [ 87%]  (Sampling)
+Iteration: 36 / 40 [ 90%]  (Sampling)
+Iteration: 37 / 40 [ 92%]  (Sampling)
+Iteration: 38 / 40 [ 95%]  (Sampling)
+Iteration: 39 / 40 [ 97%]  (Sampling)
+Iteration: 40 / 40 [100%]  (Sampling)
+Exception: CVode(cvodes_mem, t_final, nv_state_, &t_init, CV_NORMAL) failed with error flag -4: 
+Convergence test failures occurred too many times during one internal time step or minimum step size was reached. (in '/home/hossein/Code/cyano/.venv/lib/python3.10/site-packages/maud/stan/model.stan', line 156, column 4 to line 203, column 39)
+
+ Elapsed Time: 1313.73 seconds (Warm-up)
+               1475.26 seconds (Sampling)
+               2788.99 seconds (Total)
+
