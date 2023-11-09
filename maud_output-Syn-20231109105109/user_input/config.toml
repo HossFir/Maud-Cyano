@@ -1,0 +1,25 @@
+name = "Syn"
+kinetic_model_file = "kinetic_model.toml"
+reject_non_steady = false
+priors_file = "priors.toml"
+experiments_file = "experiments.toml"
+likelihood = true
+steady_state_threshold_abs = 1e-5
+
+[cmdstanpy_config]
+refresh = 1
+iter_warmup = 20
+iter_sampling = 20
+chains = 1
+save_warmup = true
+seed = 1234
+show_console=true
+max_treedepth = 7
+
+[ode_config]
+abs_tol = 1e-8
+rel_tol = 1e-8
+max_num_steps = 1e7
+timepoint = 1e7
+
+
